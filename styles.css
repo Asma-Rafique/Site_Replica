@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.header-container {
+    background-color: #002147;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li {
+    margin: 0 10px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.headline-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.weather,
+.headlines {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.headlines .headline {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+}
